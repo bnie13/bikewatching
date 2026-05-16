@@ -11,7 +11,7 @@ console.log('Mapbox GL JS Loaded:', mapboxgl);
 // 2. Copy your "Default public token" (it starts with "pk.")
 // 3. Replace the text inside the quotes below with that token.
 // ============================================================
-mapboxgl.accessToken = 'YOUR_ACCESS_TOKEN_HERE';
+mapboxgl.accessToken = 'pk.eyJ1IjoiYm5pZSIsImEiOiJjbXA3eHAzcnQwOHI1MnNweG56N2NrYzJqIn0.IaUzuIp9hB_kgBH8sb1x1w';
 
 // Create the map, centered on the Boston / Cambridge area
 const map = new mapboxgl.Map({
